@@ -1,1 +1,0 @@
-Selenium is web application tool that use to automate the browser.
