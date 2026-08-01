@@ -1,5 +1,4 @@
 package com.ea;
-import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,5 +20,6 @@ public class ScreenShot {
         Files.copy(srcFile.toPath(), destFile.toPath());
         Thread.sleep(5000);
         driver.close();
+        System.out.println("Screenshot was Taken Successfully");
     }
 }
